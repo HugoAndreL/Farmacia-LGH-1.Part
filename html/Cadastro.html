@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../img/Farmácia L.G.H - Logo.png"><img>
+        <div class=" busca">
+            <input placeholder="Busque algo" type="text">
+        </div>
+        <a href="Cadastro.html" id="realizarCadastro">Realizar Cadastro</a>
+        <a href="Login.html" id="realizarLogin">Realizar Login</a>
+    </header>
+    <form method="POST" class="inline" class="cima">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Laboratório</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>Telefone: </span><input type="tel" name="telLab" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone"><br>
+            <img src="../img/End.png"><span>Endereço: </span><input type="text" name="endlab" id="endLab" class="campo"
+                placeholder="Só Av."><br>
+            <img src="../img/Rua.png"><span>Rua: </span><input type="text" name="ruaL" id="ruaL" class="campo"
+                placeholder="Rua ou Bairro"><br><br>
+            <span>Número: </span><input type="text" name="num" class="campo" placeholder="Número"><br><br>
+            <span>Complemento: </span><input type="text" name="comGe"><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline" class="cima">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Gerente</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>* Telefone: </span><input type="tel" name="tel" id="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone" required><br>
+            <img src="../img/End.png"><span>* Endereço: </span><input type="text" name="endGer" id="endGer"
+                class="campo" placeholder="Só Av." required><br>
+            <img src="../img/Rua.png"><span>* Rua: </span><input type="text" name="ruaG" id="ruaG" class="campo"
+                placeholder="Rua ou Bairro" required><br><br>
+            <span>* Número: </span><input type="text" name="num" id="num" class="campo" placeholder="Número" required><br><br>
+            <span>* Complemento: </span><input type="text" name="comGe" required><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline" class="cima">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Farmáceutico</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>Telefone: </span><input type="tel" name="tel" id="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone"><br>
+            <img src="../img/End.png"><span>Endereço: </span><input type="text" name="endFarm" id="endFarm"
+                class="campo" placeholder="Só Av."><br>
+            <img src="../img/Rua.png"><span>Rua: </span><input type="text" name="ruaF" id="ruaF" class="campo"
+                placeholder="Rua ou Bairro"><br><br>
+            <span>Número: </span><input type="text" name="num" id="num" class="campo" placeholder="Número"><br><br>
+            <span>Complemento: </span><input type="text" name="comFa" id=""><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">MIPs</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>* Telefone: </span><input type="tel" name="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone" required><br>
+            <img src="../img/End.png"><span>Endereço: </span><input type="text" name="endMips" id="endMips"
+                class="campo" placeholder="Só Av."><br>
+            <img src="../img/Rua.png"><span>Rua: </span><input type="text" name="ruaM" id="ruaM" class="campo"
+                placeholder="Rua ou Bairro"><br><br>
+            <span>Número: </span><input type="text" name="num" id="num" class="campo" placeholder="Número"><br><br>
+            <span>Complemento: </span><input type="text" name="comMip"><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Atedente</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>* Telefone: </span><input type="tel" name="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone" required><br>
+            <img src="../img/End.png"><span>Endereço: </span><input type="text" name="endAte" id="endAte" class="campo"
+                placeholder="Só Av."><br>
+            <img src="../img/Rua.png"><span>Rua: </span><input type="text" name="ruaAt" id="ruaAt" class="campo"
+                placeholder="Rua ou Bairro"><br><br>
+            <span>Número: </span><input type="text" name="num" id="num" class="campo" placeholder="Número"><br><br>
+            <span>Complemento: </span><input type="text" name="comAt"><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Atedente - Telefone</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>* Telefone: </span><input type="tel" name="tel" id="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone" required><br>
+            <img src="../img/End.png"><span>Endereço: </span><input type="text" name="endAte-tel" id="endAte-tel"
+                class="campo" placeholder="Só Av."><br>
+            <img src="../img/Rua.png"><span>Rua: </span><input type="text" name="ruaAt-tel" id="ruaAt-tel" class="campo"
+                placeholder="Rua ou Bairro"><br><br>
+            <span>Número: </span><input type="text" name="num" class="campo" placeholder="Número"><br><br>
+            <span>Complemento: </span><input type="text" name="comAt-tel"><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Caixa</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>* Telefone: </span><input type="tel" name="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone" required><br>
+            <img src="../img/End.png"><span>Endereço: </span><input type="text" name="endCa" id="endCa" class="campo"
+                placeholder="Só Av."><br>
+            <img src="../img/Rua.png"><span>Rua: </span><input type="text" name="ruaCa" id="ruaCa" class="campo"
+                placeholder="Rua ou Bairro"><br>
+            <span>Número: </span><input type="text" name="num" class="campo" placeholder="Número"><br><br>
+            <span>Complemento: </span><input type="text" name="comCai"><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Motorista</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>* Telefone: </span><input type="tel" name="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone" required><br>
+            <img src="../img/End.png"><span>* Endereço: </span><input type="text" name="endMot" id="endMot"
+                class="campo" placeholder="Só Av." required><br>
+            <img src="../img/Rua.png"><span>* Rua: </span><input type="text" name="ruaMot" id="ruaMot" class="campo"
+                placeholder="Rua ou Bairro" required><br>
+            <span>* Número: </span><input type="text" name="num" class="campo" placeholder="Número" required><br><br>
+            <span>* Complemento: </span><input type="text" name="comMot" required><br><br>
+            <span>* CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF" required><br><br>
+            <span>* CPNJ: </span><input type="text" name="cpnj" class="campo" placeholder="Seu CPNJ" required><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+    <form method="POST" class="inline">
+        <fieldset>
+            <legend>
+                <h1>Criar um novo usuário</h1>
+            </legend>
+            <h2 class="titulo">Cliente</h2>
+            <img src="../img/Email.png"><span>* E-mail do Usuário: </span><input type="email" name="email" class="campo"
+                placeholder="E-mail válido" required><br>
+            <img src="../img/Senha.png"><span>* Crie uma Senha: </span><input type="password" name="senha" class="campo"
+                placeholder="Senha com 24 caracteres" maxlength="24" required><br>
+            <img src="../img/Telefone.png"><span>Telefone: </span><input type="tel" name="tel" class="campo"
+                placeholder="(DDD Obrigatório) + Telefone"><br>
+            <img src="../img/End.png"><span>* Endereço: </span><input type="text" name="endCi" id="endCi" class="campo"
+                placeholder="Só Av." required><br>
+            <img src="../img/Rua.png"><span>* Rua: </span><input type="text" name="ruaCi" id="ruaCi" class="campo"
+                placeholder="Rua ou Bairro" required><br>
+            <span>* Número: </span><input type="text" name="num" id="num" class="campo" placeholder="Número"
+                required><br><br>
+            <span>* Complemento: </span><input type="text" name="comCli"><br><br>
+            <span>CPF: </span><input type="text" name="cpf" class="campo" placeholder="Seu CPF"><br><br>
+            <img src="../img/DataNascimento.png">* Data de Nascimento: <input type="date" name="dtNasc" required><br>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

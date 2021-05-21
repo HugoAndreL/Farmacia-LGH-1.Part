@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../img/Farmácia L.G.H - Logo.png"><img>
+        <div class=" busca">
+            <input placeholder="Busque algo" type="text">
+        </div>
+        <a href="Cadastro.html" id="realizarCadastro">Realizar Cadrastro</a>
+        <a href="Login.html" id="realizarLogin">Realizar Login</a>
+    </header>
+    <form method="post" class="inline" id="fazerLogin">
+        <h1>Realizar Login</h1>
+        <div id="login">
+            E-mail: <input type="email" id="email" placeholder="Insira seu E-mail"><br>
+            Senha: <input type="password" name="senha" id="senha" placeholder="Insira sua Senha"><br>
+            <a href="-" id="esqueceuSenha" class="link">Esqueceu sua Senha?</a><br>
+            <button type="submit" name="enviar" id="enviar" class="link">Fazer Login</button>
+        </div>
+    </form>
+    <div class="inline" id="cadrasto">
+        <h1 id="h1">Não possui Cadastro?</h1>
+        <div id="containerCadastro">
+            Caso não tenha um cadastro ainda? Basta <a href="Cadastro.html" id="link">Clicar aqui</a>.
+        </div>
+    </div>
+</body>
+
+</html>

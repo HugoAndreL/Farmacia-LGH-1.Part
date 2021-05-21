@@ -1,0 +1,129 @@
+form {
+    border: 1px solid #000;
+    background-color: #f3c54f;
+}
+
+div#login {
+    border: 1px solid #000;
+    background-color: rgb(151, 207, 47);
+    padding: 5px;
+    margin: 10px;
+
+}
+
+h1 {
+    margin: 5px 0px 0px 5px;
+    color: #fff;
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+#email,
+#senha {
+    background-color: #b80000;
+    color: #fff;
+    width: 185px;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+#cadrasto {
+    border: 1px solid #000;
+    background-color: #000;
+    margin-top: 10px;
+    height: 219px;
+}
+
+#containerCadastro {
+    border: 1px solid #fff;
+    background-color: rgb(21, 226, 82);
+    margin: 10px 10px;
+    height: 150px;
+}
+
+a#link {
+    color: #b80000;
+}
+
+a#link:hover {
+    color: #0000ee;
+}
+
+#enviar {
+    margin-left: 550px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 378px;
+}
+
+#enviar {
+    margin-top: 51px;
+    margin-left: 1200px;
+}
+
+#containerCadastro {
+    text-align: center;
+}
+
+#logo {
+    width: 50%;
+}
+
+header {
+    background-color: #b80000;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 110px;
+    margin: -10px;
+}
+
+#realizarCadrasto,
+#realizarLogin {
+    position: relative;
+    top: -50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000000;
+}
+
+#realizarCadrasto {
+    margin-left: 1080px;
+}
+
+.busca {
+    text-align: center;
+    width: 100%;
+    margin-top: -20px;
+    position: relative;
+    top: -60px;
+}
+
+.busca input {
+    background-image: url(../img/Search.png);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 20px;
+    padding: 5px;
+    width: 500px;
+    margin-top: 10px;
+    background-position: 95%;
+    border: 1px solid #161616;
+    border-radius: 30px;
+}
+
+#fazerLogin {
+    margin-top: 20px;
+}
